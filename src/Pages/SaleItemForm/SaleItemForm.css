@@ -1,0 +1,29 @@
+
+.item-form-wraper{
+    display: flex;
+}
+.item-form-sidebar-wraper{
+    flex-basis: 30%;
+    /* border: 1px solid #ccc; */
+}
+.item-form-sidebar-wraper ul{
+    padding: 0;
+    list-style: none;
+}
+.item-form-sidebar-wraper ul li{
+    padding: 5px 0 0 20px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.item-form-sidebar-wraper ul li:hover{
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+.item-form-content{
+    flex: 1;
+}
+.sidebar-icon{
+    font-size: 20px;
+}

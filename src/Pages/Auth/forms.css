@@ -1,0 +1,27 @@
+
+.form-main-wraper{
+    padding:25px;
+    min-height: 90vh;
+    width:100%;
+    background-image: url('../../assets/images/stylish-black-woman-car-salon.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-content{
+    padding:30px;
+    width:30%;
+    background-color: rgba(2, 2, 2, 0.785);
+}
+.signup-form-content{
+    width:50%;
+    display: flex;
+    background-color: rgba(2, 2, 2, 0.785);
+    
+}
+
+.form-icon{
+    font-size: 66px;
+    color:#fff;
+}

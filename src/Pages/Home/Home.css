@@ -1,0 +1,54 @@
+
+.color-primary{
+    color: rgb(54, 116, 248);
+}
+.color-secondary{
+    color: rgb(255, 110, 43);
+}
+
+/*  start of header */
+.header-wraper{
+    padding: 20vh 0;
+    width:100%;
+    background-color: rgb(240, 240, 250);
+    background-image: url('../../assets/images/675620d0d624805.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: rgb(250, 252, 255);
+}
+.why-to-use{
+    height: 100%;
+    width:100%;
+    background-image: url('../../assets/images/web.png');
+    background-size: 100% 100%;
+}
+.hero-wraper{
+    padding-left:60px;
+    width: 60%;
+}
+.header-wraper h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.hero-btn{
+    padding: 6px 10px;
+    border:1px solid rgb(255, 110, 43);
+    background-color: rgb(255, 110, 43);
+    color:#fff;
+    font-size:22px;
+    font-weight: 500;
+}
+
+.content-wraper{
+    padding: 70px 0;
+}
+.gray-bg{
+    background-color: rgb(243, 243, 243);
+}
+
+.body-icon{
+    font-size: 80px;
+    color:red;
+}

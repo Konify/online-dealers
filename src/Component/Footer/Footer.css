@@ -1,0 +1,13 @@
+.footer-wraper{
+    padding:70px 0;
+    background-color: rgb(75, 74, 74);
+}
+.footer-wraper ul{
+    list-style: none;
+}
+.contact-icon{
+    font-size: 25px;
+}
+.footer-media-icon{
+    font-size: 40px;
+}

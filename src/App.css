@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url('./assets/fonts/Oswald-Bold.ttf'); 
+}
+
+@font-face {
+    font-family: "PT-Sans-Bold";
+    src: url('./assets/fonts/PT_Sans-Web-Bold.ttf'); 
+}
+
+@font-face {
+    font-family: "PT-Sans-Regular";
+    src: url('./assets/fonts/PT_Sans-Web-Regular.ttf'); 
+}
+
+@font-face {
+    font-family: "PT-Sans-Italic";
+    src: url('./assets/fonts/PT_Sans-Web-Italic.ttf'); 
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT-Sans-Regular";
+}
+.colored-text{
+    color: rgb(255, 110, 43);
+}
+
+.title-wraper h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sub-navbar-wraper{
+    padding: 10px;
+    border-bottom:1px solid #ccc;
+}
+.card-detail-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.item-card-btn{
+    padding: 5px 0 !important;
+    width: 49%;
+    border: 1px solid rgb(238, 101, 22) !important;
+    background-color: rgb(238, 101, 22) !important;
+    color: #fff !important;
+}
+
+
+.bg{
+    background: 
+    radial-gradient(
+      farthest-side at bottom left,
+      rgba(255, 0, 255, 0.5), 
+      #246756
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      rgba(255, 50, 50, 0.5), 
+      #246756 400px
+    );
+}
+
+.item-image-container{
+    position: relative;
+}
+.item-sale-image{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-image: url('./assets/images/sale.png');
+    background-size: 100% 100%;
+}
